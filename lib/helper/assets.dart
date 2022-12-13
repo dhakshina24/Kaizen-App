@@ -1,0 +1,31 @@
+class Assets{
+  static String pulseOximeter='assets/images/pulse_oximeter.gif';
+  static String pinchPulseOximeter='assets/images/pinch_pulse_oximeter.gif';
+  static String wearable = 'assets/images/wearable.jpg';
+  static String wearPulseOximeter = 'assets/images/wearable.jpg';
+  static String pulseOximeterOption = 'assets/images/pulse_oximeter_option.png';
+  static String tempSensorOption = 'assets/images/temperature_sensor_option.png';
+  static String bpSensorOption = 'assets/images/blood_pressure_option.png';
+  static String weightSensorOption = 'assets/images/weight_sensor_option.png';
+  static String virtualTourIcon = 'assets/images/virtual_tour_icon.png';
+  static String pulseOximeterFinger = 'assets/images/pulse_oximeter_finger.gif';
+  static String tempSensor = 'assets/images/temp_sensor.gif';
+  static String useTempSensor = 'assets/images/use_temp_sensor.gif';
+  static String bpSensor = 'assets/images/bp_sensor.gif';
+  static String useBpSensor = 'assets/images/use_bp_sensor.gif';
+  static String buttonBpSensor = 'assets/images/press_bp_button.gif';
+  static String weightSensor = 'assets/images/weight_sensor.gif';
+  static String sensorCollection = 'assets/images/sensor_collection.jpg';
+  static String blueTriangle = 'assets/images/blue_triangle.png';
+  static String scanCard = 'assets/images/scan_card.gif';
+  static String survey = 'assets/images/survey_image.png';
+  static String frontPage = 'assets/images/front_page.png';
+  static String blueTriangleTwo = 'assets/images/blue_triangle_two.png';
+  static String blueBackground = 'assets/images/blue_background.PNG';
+  static String sensorsOnWhite = 'assets/images/keep_sensors_on_white.gif';
+  static String sensorsOnBlack = 'assets/images/keep_sensors_on_black.gif';
+  static String sensorsOff = 'assets/images/remove_sensors.gif';
+  static String surveyBackground = 'assets/images/survey_result_two.gif';
+  static String hereForYouBg = 'assets/images/here_for_you.gif';
+  static String reachOut = 'assets/images/reach_out.gif';
+}
