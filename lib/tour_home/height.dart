@@ -176,33 +176,59 @@ class HeightPageState extends State<HeightPage> {
           RemoteService().sendData(data:bmi.toString(),jsonProperty:"bmi");
           RemoteService().sendData(data:heightController.text,jsonProperty:"height");
         },
-        child: heightController.text==""
-        ? const SizedBox(height: 10.0,)
-        : Container(
-      margin: const EdgeInsets.only(
-        bottom: 300.0,
-        left: 40.0,
-      ),
-      height: 80.0,
-      width: MediaQuery
-          .of(context)
-          .size
-          .width * 0.2,
-      decoration: BoxDecoration(
-        color: HexColor("#F2DF3A"),
-        borderRadius: BorderRadius.circular(10.0),
-      ),
-      child: const Center(
-        child: Text(
-          "NEXT",
-          style: TextStyle(
-            color: Colors.black,
-            fontWeight: FontWeight.bold,
-            fontSize: 28.0,
+        child:Container(
+          margin: const EdgeInsets.only(
+            bottom: 300.0,
+            left: 40.0,
           ),
-          textAlign: TextAlign.center,
-        ),
-      ),
-    ),);
+          height: 80.0,
+          width: MediaQuery
+              .of(context)
+              .size
+              .width * 0.2,
+          decoration: BoxDecoration(
+            color: HexColor("#F2DF3A"),
+            borderRadius: BorderRadius.circular(10.0),
+          ),
+          child: const Center(
+            child: Text(
+              "NEXT",
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+                fontSize: 28.0,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ),);
+    //     heightController.text==""
+    //     ? const SizedBox(height: 10.0,)
+    //     : Container(
+    //   margin: const EdgeInsets.only(
+    //     bottom: 300.0,
+    //     left: 40.0,
+    //   ),
+    //   height: 80.0,
+    //   width: MediaQuery
+    //       .of(context)
+    //       .size
+    //       .width * 0.2,
+    //   decoration: BoxDecoration(
+    //     color: HexColor("#F2DF3A"),
+    //     borderRadius: BorderRadius.circular(10.0),
+    //   ),
+    //   child: const Center(
+    //     child: Text(
+    //       "NEXT",
+    //       style: TextStyle(
+    //         color: Colors.black,
+    //         fontWeight: FontWeight.bold,
+    //         fontSize: 28.0,
+    //       ),
+    //       textAlign: TextAlign.center,
+    //     ),
+    //   ),
+    // ),);
   }
 }

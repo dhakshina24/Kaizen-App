@@ -102,7 +102,7 @@ class _WelcomePageState extends State<WelcomePage> {
         ),
         GestureDetector(
           onTap: () {
-            RemoteService().sendData(data: "1", jsonProperty: "stop_signal");
+            // RemoteService().sendData(data: "1", jsonProperty: "stop_signal");
             SystemNavigator.pop();
           },
           child: Container(
@@ -120,7 +120,6 @@ class _WelcomePageState extends State<WelcomePage> {
               ),
             ),
             child: Container(
-
               height: 200.0,
               width: 200,
               decoration: BoxDecoration(
